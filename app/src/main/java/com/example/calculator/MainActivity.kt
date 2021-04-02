@@ -14,14 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //Change view text
-        val botao: Button = findViewById(R.id.button)
-        val textbox: TextView = findViewById(R.id.textView4)
-        botao.setOnClickListener {
-            textbox.setText("Trocando texto...")
-            val toast = Toast.makeText(this, "Botão clicado", Toast.LENGTH_SHORT)
-            toast.show()
+        //val botao: Button = findViewById(R.id.button)
 
-        }
 
         // Enables Always-on
 //        setAmbientEnabled()
